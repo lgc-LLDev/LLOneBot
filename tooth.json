@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/lippkg/lip/main/schemas/tooth.v2.schema.json",
+  "format_version": 2,
+  "tooth": "github.com/lgc-LLDev/LeviOneBot",
+  "version": "0.1.0",
+  "info": {
+    "name": "LeviOneBot",
+    "description": "A framework makes it possible to connect LeviLamina with OneBot implements",
+    "author": "student_2333",
+    "tags": ["plugin", "lse", "quickjs", "bot", "chatbot"]
+  },
+  "files": {
+    "place": [
+      {
+        "src": "dist/NBSPlayer.js",
+        "dest": "plugins/LeviOneBot/LeviOneBot.js"
+      },
+      {
+        "src": "manifest.json",
+        "dest": "plugins/LeviOneBot/manifest.json"
+      }
+    ]
+  }
+}

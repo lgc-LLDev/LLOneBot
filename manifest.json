@@ -1,0 +1,10 @@
+{
+  "entry": "LeviOneBot.js",
+  "name": "LeviOneBot",
+  "type": "lse-quickjs",
+  "dependencies": [
+    {
+      "name": "legacy-script-engine-quickjs"
+    }
+  ]
+}

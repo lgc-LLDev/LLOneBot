@@ -9,9 +9,9 @@ export default [
     input: './src/index.ts',
     output: [
       {
-        name: 'LeviOneBot',
+        name: 'llob',
         file: './dist/LeviOneBot.js',
-        format: 'cjs',
+        format: 'umd',
       },
     ],
     plugins: [
